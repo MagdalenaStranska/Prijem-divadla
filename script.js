@@ -3,4 +3,13 @@
 let cena = 12
 let pocetNavstevniku = 174
 let pocetPredstaveni = 15
+let slevaStudent = 0.35 * 12
+let mnozstviStudentu = 0.4
+let prijem = cena * pocetNavstevniku * pocetPredstaveni
+let prijemSeSlevou = prijem - (pocetNavstevniku * mnozstviStudentu * slevaStudent)
+
+document.body.innerHTML +="<p>" + prijem + "</p>"
+document.body.innerHTML +="<p>" + prijemSeSlevou + "</p>"
+
+
 
